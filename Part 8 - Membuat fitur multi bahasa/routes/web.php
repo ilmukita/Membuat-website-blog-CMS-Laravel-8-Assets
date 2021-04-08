@@ -26,6 +26,25 @@ Route::get(
     [App\Http\Controllers\LocalizationController::class, 'switch']
 )->name('localization.switch');
 
+/*
+catatan : untuk nama class/file dari controller Localization
+
+awalnya 
+nama file:
+LocalizationControler.php
+
+nama class
+LocalizationControler
+
+ubah menjadi
+nama file:
+LocalizationController.php
+
+nama class
+LocalizationController
+
+(typo: kurang huruf "l")
+*/
 
 Route::get('/', function () {
     return view('welcome');
