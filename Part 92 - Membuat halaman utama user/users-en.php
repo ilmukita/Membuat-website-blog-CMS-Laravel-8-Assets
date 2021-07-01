@@ -48,7 +48,10 @@ return [
         'name' => 'Name',
         'email' => 'Email',
         'role' => 'Role',
-        'no_data' => 'User data does not exist yet',
+        'no_data' => [
+            'fetch' => "No user data yet",
+            'search' => ":keyword user not found",
+        ]
     ],
     'button' => [
         'create' => [

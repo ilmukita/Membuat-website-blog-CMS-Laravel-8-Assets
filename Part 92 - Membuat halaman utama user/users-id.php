@@ -48,7 +48,10 @@ return [
         'name' => 'Nama',
         'email' => 'Email',
         'role' => 'Wewenang',
-        'no_data' => 'Data pengguna belum ada',
+        'no_data' => [
+            'fetch' => "Data user belum ada",
+            'search' => "User :keyword tidak ditemukan",
+        ],
     ],
     'button' => [
         'create' => [
